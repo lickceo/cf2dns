@@ -21,10 +21,10 @@ DOMAINS = {
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
-AFFECT_NUM = 2
+AFFECT_NUM = 4
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2  如果使用华为云解析改成3
-DNS_SERVER = 1
+DNS_SERVER = 2
 
 #如果使用华为云解析 需要从API凭证-项目列表中获取
 REGION_HW = 'cn-east-3'
